@@ -121,7 +121,7 @@ def convert_weight(value , from_unit, to_unit):
           return "❌ invalid unit"
 
 
-unit_type = st.selectbox("📌 **Select Category:**",["📏 length","🌡️ temperature"," ⚖️ weight","⌛ time"])
+unit_type = st.selectbox("📌 **Select Category:**",["📏 length","🌡️ temperature","⚖️ weight","⌛ time"])
 value = st.number_input("**✎ Please enter the value:**") 
 
 if unit_type == "📏 length":
